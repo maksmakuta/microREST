@@ -1,0 +1,9 @@
+GET http://127.0.0.1:8080
+User-Agent: IntelliJ HTTP Client/CLion 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-08-08T223111.200.json
+
+###
+
