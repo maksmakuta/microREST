@@ -4,6 +4,8 @@
  Created for fun and to learn something new  
  
  DO NOT USE IT IN PRODUCTION
+
+ Also you can check [simple example](./example/readme.md)
  
 ### Dependencies 
 

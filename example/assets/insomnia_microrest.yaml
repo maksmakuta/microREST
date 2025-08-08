@@ -1,0 +1,154 @@
+type: collection.insomnia.rest/5.0
+name: Scratch Pad
+meta:
+  id: wrk_scratchpad
+  created: 1754648547015
+  modified: 1754648547015
+  description: ""
+collection:
+  - url: 127.0.0.1:8080
+    name: get all
+    meta:
+      id: req_e0d42e7017fd478eac13e36fc76df8a7
+      created: 1754674697322
+      modified: 1754677234838
+      isPrivate: false
+      description: ""
+      sortKey: -1754674697322
+    method: GET
+    headers:
+      - id: pair_ee912b845fed4f91805e34512d552850
+        name: ""
+        value: ""
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: 127.0.0.1:8080/add
+    name: add
+    meta:
+      id: req_71ad8959aca34ab39812bab07784281a
+      created: 1754677096486
+      modified: 1754681571079
+      isPrivate: false
+      description: ""
+      sortKey: -1754677096486
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	 "key" : "c",
+         	"value" : "pair<string,int>"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.4.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: 127.0.0.1:8080/get
+    name: get
+    meta:
+      id: req_d64faa920e994fcba39c117e781404bd
+      created: 1754680951732
+      modified: 1754681705231
+      isPrivate: false
+      description: ""
+      sortKey: -1754680951732
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	 "key" : "-"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.4.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: 127.0.0.1:8080/del
+    name: del
+    meta:
+      id: req_d6727428644e4260af8495891b12fd90
+      created: 1754680998862
+      modified: 1754681774231
+      isPrivate: false
+      description: ""
+      sortKey: -1754680998862
+    method: DELETE
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"key" : "a"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.4.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: 127.0.0.1:8080/keys
+    name: keys
+    meta:
+      id: req_cd54af4335d64848a312da244c1aed76
+      created: 1754681225302
+      modified: 1754681242015
+      isPrivate: false
+      description: ""
+      sortKey: -1754681225302
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.4.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1754648554078
+    modified: 1754648554078
+environments:
+  name: Base Environment
+  meta:
+    id: env_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1754648554012
+    modified: 1754648554012
+    isPrivate: false
